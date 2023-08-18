@@ -1,0 +1,26 @@
+{
+  "type": "module",
+  "dependencies": {
+    "vitepress": "^1.0.0-rc.4"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev site",
+    "docs:build": "vitepress build site",
+    "docs:preview": "vitepress preview site"
+  },
+  "name": "@highorder/highorder-site",
+  "version": "1.0.0",
+  "description": "website of highorder.xyz",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/highorder-xyz/highorder-site.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/highorder-xyz/highorder-site/issues"
+  },
+  "homepage": "https://github.com/highorder-xyz/highorder-site#readme"
+}
