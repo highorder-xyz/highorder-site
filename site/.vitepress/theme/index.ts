@@ -12,6 +12,9 @@ import Image from 'primevue/image';
 import Logo from './components/Logo.vue'
 import Element from './components/Element.vue'
 import h_button from './components/h-button.vue';
+import h_hero from './components/h-hero.vue';
+import h_card from './components/h-card.vue';
+import h_footer from './components/h-footer.vue';
 
 export default {
     Layout,
@@ -25,5 +28,8 @@ export default {
         app.component('Image', Image)
         app.component('Logo', Logo)
         app.component('h-button', h_button)
+        app.component('h-hero', h_hero)
+        app.component('h-card', h_card)
+        app.component('h-footer', h_footer)
     }
 }

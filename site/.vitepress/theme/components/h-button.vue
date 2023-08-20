@@ -24,7 +24,6 @@ export default {
     methods: {
         getButtonProps(){
             const props = this.$props.props
-            console.log(props)
             return {
                 label: props.text ?? "",
                 icon: props.icon ? `pi pi-${props.icon}`: "pi",
