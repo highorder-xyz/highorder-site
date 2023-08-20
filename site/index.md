@@ -6,12 +6,9 @@
             "type": "header",
             "start_elements":[
                 {
-                    "type": "image",
-                    "image_src": "/images/highorder192.png"
-                },
-                {
-                    "type": "plain-text",
-                    "text": "HighOrder 高阶开发",
+                    "type": "logo",
+                    "image_src": "/images/highorder192.png",
+                    "text": "HighOrder",
                     "style": {
                         "size": 3
                     }
@@ -19,35 +16,36 @@
             ],
             "elements":[
                 {
-                    "type": "menubar",
-                    "items":[
-                        {
-                            "text": "产品",
-                            "href": "/",
-                            "open_new": false
-                        },
-                        {
-                            "text": "文档",
-                            "href": "/docs",
-                            "open_new": false
-                        },
-                        {
-                            "text": "问题和反馈",
-                            "href": "https://txc.qq.com/products/604971",
-                            "open_new": true
-                        },
-                    ]
-                }
+                    "type": "button",
+                    "text": "产品",
+                    "href": "/",
+                    "open_new": false
+                },
+                {
+                    "type": "button",
+                    "text": "文档",
+                    "href": "/docs",
+                    "open_new": false
+                },
+                {
+                    "type": "button",
+                    "text": "问题和反馈",
+                    "href": "https://txc.qq.com/products/604971",
+                    "open_new": true
+                },
             ],
             "end_elements":[
                 {
                     "type": "button",
                     "icon": "github",
-                    "link": "https://github.com/highorder-xyz/highorder"
+                    "href": "https://github.com/highorder-xyz/highorder",
+                    "open_new": true
                 },
                 {
                     "type": "button",
-                    "text": "控制台"
+                    "text": "控制台",
+                    "href": "https://console.highorder.xyz/",
+                    "open_new": true
                 }
             ]
 

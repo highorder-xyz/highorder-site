@@ -1,4 +1,15 @@
 
+@import 'node_modules/modern-normalize/modern-normalize.css';
+
+body {
+    margin: 0 !important;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
 .page {
     display: flex;
     flex-direction: column;
@@ -9,5 +20,30 @@
 .header {
     width: 100%;
     height: auto;
-    min-height: 24px;
+    max-height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 32px 16px 32px;
+}
+
+.image {
+    object-fit: contain;
+}
+
+.logo {
+    max-height: 40px;
+}
+
+.logo-text {
+    margin-left: 8px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
 }
